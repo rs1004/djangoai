@@ -1,2 +1,9 @@
 ## virtual environment
 .env/
+
+## develop
+.vscode/
+.envrc
+
+## data
+data/
