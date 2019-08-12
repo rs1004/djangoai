@@ -26,7 +26,7 @@ def generate_data(image_size, data_dir='./data'):
     return X, Y
 
 
-def save(X, Y, save_file_name, save_dir='./data'):
+def save(X, Y, save_file_name, save_dir='./output'):
     X = np.array(X)
     Y = np.array(Y)
 
