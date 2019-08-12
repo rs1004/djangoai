@@ -38,7 +38,7 @@ def save(X, Y, save_file_name, save_dir='./data'):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('image_size')
+    parser.add_argument('image_size', type=int)
     parser.add_argument('save_file_name')
     args = parser.parse_args()
 
